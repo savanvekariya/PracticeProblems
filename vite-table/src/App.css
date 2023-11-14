@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  background-color: darkcyan;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.card > p {
+  text-align: center;
+  margin: 5px;
+  width: 200px;
+  word-wrap: break-word;
+}
+
+.add-user {
+  width: 150px;
+  margin: 20px;
+}
